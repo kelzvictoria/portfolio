@@ -915,7 +915,7 @@ p:last-of-type {
 }
 
 .featured__StyledProject .project-tech-list li {
-  /* margin: 0px 20px 5px 0px; */
+  margin: 0px 20px 5px 0px;
   color: var(--light-slate);
   font-family: var(--font-mono);
   font-size: var(--fz-xs);
@@ -973,6 +973,14 @@ p:last-of-type {
   z-index: 1;
 }
 
+.featured__StyledProject .project-image{
+  box-shadow: 0 10px 30px -15px var(--navy-shadow);
+transition: var(--transition);
+grid-area: 1 / 6 / -1 / -1;
+position: relative;
+z-index: 1;
+}
+
 .featured__StyledProject .project-image a {
   width: 100%;
   height: 100%;
@@ -997,6 +1005,10 @@ p:last-of-type {
   border-radius: var(--border-radius);
   mix-blend-mode: multiply;
   filter: grayscale(100%) contrast(1) brightness(90%);
+}
+
+.featured__StyledProject:nth-of-type(2n+1) .project-image {
+    grid-column: 1 / 8;
 }
 
 .image-wrapper-constrained {
