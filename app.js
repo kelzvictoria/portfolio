@@ -29,15 +29,18 @@ app.get("/", function (req, res) {
   res.render(viewsPath + "/index", {
     // appPath: appPath,
     pageName: "index",
-    activeTab: "zero",
   });
 });
 
-app.get("/index", async (req, res) => {
+app.get("/index", (req, res) => {
   res.render(viewsPath + "/index", {
-    // appPath: appPath,
     pageName: "index",
-    activeTab: "zero",
+  });
+});
+
+app.get("/archive", (req, res) => {
+  res.render(viewsPath + "/archive", {
+    pageName: "archive",
   });
 });
 

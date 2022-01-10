@@ -15,7 +15,7 @@
             <header class="nav__StyledHeader">
                 <nav class="nav__StyledNav">
                     <div class="logo" tabindex="-1">
-                        <a href="/"> VK </a>
+                        <a href="/"> VKaz </a>
                     </div>
 
                     <div class="nav__StyledLinks">
@@ -25,7 +25,7 @@
                             </li>
 
                             <li class="navlink-item" style="transition-delay: 100ms;">
-                                <a href="/#experience">Experience</a>
+                                <a href="/#jobs">Experience</a>
                             </li>
 
                             <li class="navlink-item" style="transition-delay: 200ms;">
@@ -44,14 +44,15 @@
                         </div>
                     </div>
 
-                    <div class="menu_StyledMenu">
+                    <div class="menu__StyledMenu">
                         <div>
-                            <button class="menu__StyledHamburgerButton">
+                            <button id="ham-btn" class="menu__StyledHamburgerButton">
                                 <div class="ham-box">
                                     <div class="ham-box-inner"></div>
                                 </div>
                             </button>
-                            <aside class="menu__StyledSidebar" tabindex="-1">
+                            <aside id="menu-sidebar" class="menu__StyledSidebar visibility__hidden transform__x100"
+                                tabindex="-1">
                                 <nav>
                                     <ol>
                                         <li>
@@ -77,3 +78,66 @@
                     </div>
                 </nav>
             </header>
+
+            <div class="side__StyledSideElement left__Sidebar" orientation="left">
+                <ul class="social__StyledSocialList">
+                    <li>
+                        <a href="https://github.com/kelzvictoria" aria-label="GitHub" target="_blank" rel="noreferer">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-github">
+                                <title>GitHub</title>
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/victoria-kazeem-062708bb/" aria-label="Linkedin"
+                            target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+                                <title>LinkedIn</title>
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg></a>
+                    </li>
+
+                    <!-- <li>
+                        <a href="https://twitter.com/vickycinky" aria-label="Twitter" target="_blank" rel="noreferrer">
+                          
+                            <svg viewBox="328 355 335 276" xmlns="http://www.w3.org/2000/svg">
+                                <path d="
+                                    M 630, 425
+                                    A 195, 195 0 0 1 331, 600
+                                    A 142, 142 0 0 0 428, 570
+                                    A  70,  70 0 0 1 370, 523
+                                    A  70,  70 0 0 0 401, 521
+                                    A  70,  70 0 0 1 344, 455
+                                    A  70,  70 0 0 0 372, 460
+                                    A  70,  70 0 0 1 354, 370
+                                    A 195, 195 0 0 0 495, 442
+                                    A  67,  67 0 0 1 611, 380
+                                    A 117, 117 0 0 0 654, 363
+                                    A  65,  65 0 0 1 623, 401
+                                    A 117, 117 0 0 0 662, 390
+                                    A  65,  65 0 0 1 630, 425
+                                    Z" style="fill:#3BA9EE;" />
+                            </svg>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+
+            <div class="side__StyledSideElement right__Sidebar" orientation="right">
+                <div class="email__StyledLinkWrapper">
+                    <a href="mailto:kelzvictoria@gmail.com">
+                        kelzvictoria@gmail.com
+                    </a>
+                </div>
+            </div>
