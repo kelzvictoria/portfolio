@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">vkaz.com.ng</h3>
+  <h1 align="center">vkaz.com.ng</h1>
 </div>
 
 <!--
@@ -21,14 +21,14 @@
 <!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 <!-- CONTACT -->
-
+<!--
 ## Contact
 
 Victoria Kazeem - [@vickycinky](https://twitter.com/vickycinky) - vickycinky@ymail.com
 
 Project Link: [https://vkaz.com.ng](https://vkaz.com.ng)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 <!-- ACKNOWLEDGMENTS -->
 
